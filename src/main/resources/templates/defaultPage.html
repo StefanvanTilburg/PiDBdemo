@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Default page</title>
+</head>
+<body>
+    <h1>Default page greeting</h1>
+    <h1 th:if="${demoName}" th:text="${demoName.firstName}">This should be the name in controller.</h1>
+</body>
+</html>
